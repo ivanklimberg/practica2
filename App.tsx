@@ -2,7 +2,7 @@ import React from 'react'
 import { SafeAreaView, StatusBar, StyleSheet } from 'react-native'
 import { FormScreen } from './src/screens/FormScreen'
 
-export const App = () => {
+const App = () => {
   return (
     <SafeAreaView
       style={styles.container}
@@ -15,6 +15,8 @@ export const App = () => {
     </SafeAreaView>
   )
 }
+
+export default App;
 
 const styles = StyleSheet.create({
   container: {
